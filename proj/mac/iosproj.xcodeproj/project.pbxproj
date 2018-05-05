@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B26EDDE1E203B76006ABFA6 /* app.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26EDDA1E203B76006ABFA6 /* app.m */; };
+		8B26EDDF1E203B76006ABFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26EDDB1E203B76006ABFA6 /* main.m */; };
+		8B26EDE01E203B76006ABFA6 /* viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26EDDD1E203B76006ABFA6 /* viewcontroller.m */; };
+		8BEC89D11E2026980002F77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC89CF1E2026980002F77A /* Main.storyboard */; };
+		8BEC89D31E2026980002F77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC89D21E2026980002F77A /* Assets.xcassets */; };
+		8BEC89D61E2026980002F77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC89D41E2026980002F77A /* LaunchScreen.storyboard */; };
+		9B63E1B4209B1FB8009131B5 /* libsabalib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1B2209B1259009131B5 /* libsabalib.a */; };
+		9B63E1E1209C33B9009131B5 /* libBulletCollision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1D4209C3349009131B5 /* libBulletCollision.a */; };
+		9B63E1E2209C33BC009131B5 /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1DA209C3356009131B5 /* libBulletDynamics.a */; };
+		9B63E1E3209C33C0009131B5 /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1E0209C3364009131B5 /* libLinearMath.a */; };
+		9B63E1F7209C3C3F009131B5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1F6209C3C3F009131B5 /* OpenGLES.framework */; };
+		9B63E1F9209C3CC6009131B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1F8209C3CC5009131B5 /* UIKit.framework */; };
+		9B63E1FD209C3D15009131B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B63E1FC209C3D15009131B5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B63E1B1209B1259009131B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B63E1AD209B1258009131B5 /* sabalib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 411F705320982AEE00550B0D;
+			remoteInfo = sabalib;
+		};
+		9B63E1D3209C3349009131B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B63E1CF209C3349009131B5 /* BulletCollision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 415E44C9202711FC00EE5BEE;
+			remoteInfo = BulletCollision;
+		};
+		9B63E1D9209C3356009131B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B63E1D5209C3355009131B5 /* BulletDynamics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 415E446320270E6300EE5BEE;
+			remoteInfo = BulletDynamics;
+		};
+		9B63E1DF209C3364009131B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B63E1DB209C3363009131B5 /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 415E460F202713DC00EE5BEE;
+			remoteInfo = LinearMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B26EDDA1E203B76006ABFA6 /* app.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = app.m; sourceTree = "<group>"; };
+		8B26EDDB1E203B76006ABFA6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B26EDDC1E203B76006ABFA6 /* viewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewcontroller.h; sourceTree = "<group>"; };
+		8B26EDDD1E203B76006ABFA6 /* viewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewcontroller.m; sourceTree = "<group>"; };
+		8BEC89C31E2026970002F77A /* iosproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosproj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEC89D01E2026980002F77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEC89D21E2026980002F77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEC89D51E2026980002F77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEC89D71E2026980002F77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B63E1AD209B1258009131B5 /* sabalib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sabalib.xcodeproj; path = ../../lib/sabalib/sabalib.xcodeproj; sourceTree = "<group>"; };
+		9B63E1CF209C3349009131B5 /* BulletCollision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BulletCollision.xcodeproj; path = ../../../test/BulletCollision/BulletCollision.xcodeproj; sourceTree = "<group>"; };
+		9B63E1D5209C3355009131B5 /* BulletDynamics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BulletDynamics.xcodeproj; path = ../../../test/BulletDynamics/BulletDynamics.xcodeproj; sourceTree = "<group>"; };
+		9B63E1DB209C3363009131B5 /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LinearMath.xcodeproj; path = ../../../test/LinearMath/LinearMath.xcodeproj; sourceTree = "<group>"; };
+		9B63E1F6209C3C3F009131B5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9B63E1F8209C3CC5009131B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B63E1FA209C3CED009131B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B63E1FC209C3D15009131B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEC89C01E2026970002F77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B63E1FD209C3D15009131B5 /* QuartzCore.framework in Frameworks */,
+				9B63E1F9209C3CC6009131B5 /* UIKit.framework in Frameworks */,
+				9B63E1F7209C3C3F009131B5 /* OpenGLES.framework in Frameworks */,
+				9B63E1E3209C33C0009131B5 /* libLinearMath.a in Frameworks */,
+				9B63E1E2209C33BC009131B5 /* libBulletDynamics.a in Frameworks */,
+				9B63E1E1209C33B9009131B5 /* libBulletCollision.a in Frameworks */,
+				9B63E1B4209B1FB8009131B5 /* libsabalib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEC89BA1E2026970002F77A = {
+			isa = PBXGroup;
+			children = (
+				9B63E1FE209D90D6009131B5 /* assets */,
+				9B63E1CE209C3333009131B5 /* bullet */,
+				9B63E1AD209B1258009131B5 /* sabalib.xcodeproj */,
+				8BEC89C51E2026970002F77A /* macproj */,
+				8BEC89C41E2026970002F77A /* Products */,
+				9B63E1B3209B1FB8009131B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEC89C41E2026970002F77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC89C31E2026970002F77A /* iosproj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEC89C51E2026970002F77A /* macproj */ = {
+			isa = PBXGroup;
+			children = (
+				8B26EDDA1E203B76006ABFA6 /* app.m */,
+				8B26EDDB1E203B76006ABFA6 /* main.m */,
+				8B26EDDC1E203B76006ABFA6 /* viewcontroller.h */,
+				8B26EDDD1E203B76006ABFA6 /* viewcontroller.m */,
+				8BEC89CF1E2026980002F77A /* Main.storyboard */,
+				8BEC89D21E2026980002F77A /* Assets.xcassets */,
+				8BEC89D41E2026980002F77A /* LaunchScreen.storyboard */,
+				8BEC89D71E2026980002F77A /* Info.plist */,
+			);
+			path = macproj;
+			sourceTree = "<group>";
+		};
+		9B63E1AE209B1258009131B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1B2209B1259009131B5 /* libsabalib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B63E1B3209B1FB8009131B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1FC209C3D15009131B5 /* QuartzCore.framework */,
+				9B63E1FA209C3CED009131B5 /* Foundation.framework */,
+				9B63E1F8209C3CC5009131B5 /* UIKit.framework */,
+				9B63E1F6209C3C3F009131B5 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B63E1CE209C3333009131B5 /* bullet */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1DB209C3363009131B5 /* LinearMath.xcodeproj */,
+				9B63E1D5209C3355009131B5 /* BulletDynamics.xcodeproj */,
+				9B63E1CF209C3349009131B5 /* BulletCollision.xcodeproj */,
+			);
+			path = bullet;
+			sourceTree = "<group>";
+		};
+		9B63E1D0209C3349009131B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1D4209C3349009131B5 /* libBulletCollision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B63E1D6209C3355009131B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1DA209C3356009131B5 /* libBulletDynamics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B63E1DC209C3363009131B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1E0209C3364009131B5 /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B63E1FE209D90D6009131B5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEC89C21E2026970002F77A /* iosproj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEC89DA1E2026980002F77A /* Build configuration list for PBXNativeTarget "iosproj" */;
+			buildPhases = (
+				8BEC89BF1E2026970002F77A /* Sources */,
+				8BEC89C01E2026970002F77A /* Frameworks */,
+				8BEC89C11E2026970002F77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosproj;
+			productName = HelloOpenGL;
+			productReference = 8BEC89C31E2026970002F77A /* iosproj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEC89BB1E2026970002F77A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Henry Fox";
+				TargetAttributes = {
+					8BEC89C21E2026970002F77A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BEC89BE1E2026970002F77A /* Build configuration list for PBXProject "iosproj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEC89BA1E2026970002F77A;
+			productRefGroup = 8BEC89C41E2026970002F77A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B63E1D0209C3349009131B5 /* Products */;
+					ProjectRef = 9B63E1CF209C3349009131B5 /* BulletCollision.xcodeproj */;
+				},
+				{
+					ProductGroup = 9B63E1D6209C3355009131B5 /* Products */;
+					ProjectRef = 9B63E1D5209C3355009131B5 /* BulletDynamics.xcodeproj */;
+				},
+				{
+					ProductGroup = 9B63E1DC209C3363009131B5 /* Products */;
+					ProjectRef = 9B63E1DB209C3363009131B5 /* LinearMath.xcodeproj */;
+				},
+				{
+					ProductGroup = 9B63E1AE209B1258009131B5 /* Products */;
+					ProjectRef = 9B63E1AD209B1258009131B5 /* sabalib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8BEC89C21E2026970002F77A /* iosproj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B63E1B2209B1259009131B5 /* libsabalib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsabalib.a;
+			remoteRef = 9B63E1B1209B1259009131B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B63E1D4209C3349009131B5 /* libBulletCollision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBulletCollision.a;
+			remoteRef = 9B63E1D3209C3349009131B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B63E1DA209C3356009131B5 /* libBulletDynamics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBulletDynamics.a;
+			remoteRef = 9B63E1D9209C3356009131B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B63E1E0209C3364009131B5 /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLinearMath.a;
+			remoteRef = 9B63E1DF209C3364009131B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEC89C11E2026970002F77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEC89D61E2026980002F77A /* LaunchScreen.storyboard in Resources */,
+				8BEC89D31E2026980002F77A /* Assets.xcassets in Resources */,
+				8BEC89D11E2026980002F77A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEC89BF1E2026970002F77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B26EDDF1E203B76006ABFA6 /* main.m in Sources */,
+				8B26EDDE1E203B76006ABFA6 /* app.m in Sources */,
+				8B26EDE01E203B76006ABFA6 /* viewcontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BEC89CF1E2026980002F77A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEC89D01E2026980002F77A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEC89D41E2026980002F77A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEC89D51E2026980002F77A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEC89D81E2026980002F77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEC89D91E2026980002F77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEC89DB1E2026980002F77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = (
+					../../lib/sabalib,
+					../../lib/sabalib/sabalib,
+					../../include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/macproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BEC89DC1E2026980002F77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = (
+					../../lib/sabalib,
+					../../lib/sabalib/sabalib,
+					../../include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/macproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEC89BE1E2026970002F77A /* Build configuration list for PBXProject "iosproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEC89D81E2026980002F77A /* Debug */,
+				8BEC89D91E2026980002F77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEC89DA1E2026980002F77A /* Build configuration list for PBXNativeTarget "iosproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEC89DB1E2026980002F77A /* Debug */,
+				8BEC89DC1E2026980002F77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEC89BB1E2026970002F77A /* Project object */;
+}

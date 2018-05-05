@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng.vcxproj", "{6F508E57-4A16-4C0F-9FC3-54459982EE2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\zlib\zlib.vcxproj", "{217903F7-F9AE-4EC8-B76E-3C8D110589C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug MD|Win32 = Debug MD|Win32
+		Debug ML|Win32 = Debug ML|Win32
+		Debug MT|Win32 = Debug MT|Win32
+		Debug|Win32 = Debug|Win32
+		Release MD|Win32 = Release MD|Win32
+		Release ML|Win32 = Release ML|Win32
+		Release MT|Win32 = Release MT|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug MD|Win32.ActiveCfg = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug MD|Win32.Build.0 = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug ML|Win32.ActiveCfg = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug ML|Win32.Build.0 = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug MT|Win32.ActiveCfg = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug MT|Win32.Build.0 = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Debug|Win32.Build.0 = Debug|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release MD|Win32.ActiveCfg = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release MD|Win32.Build.0 = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release ML|Win32.ActiveCfg = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release ML|Win32.Build.0 = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release MT|Win32.ActiveCfg = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release MT|Win32.Build.0 = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release|Win32.ActiveCfg = Release|Win32
+		{6F508E57-4A16-4C0F-9FC3-54459982EE2A}.Release|Win32.Build.0 = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug MD|Win32.ActiveCfg = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug MD|Win32.Build.0 = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug ML|Win32.ActiveCfg = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug ML|Win32.Build.0 = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug MT|Win32.ActiveCfg = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug MT|Win32.Build.0 = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Debug|Win32.Build.0 = Debug|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release MD|Win32.ActiveCfg = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release MD|Win32.Build.0 = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release ML|Win32.ActiveCfg = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release ML|Win32.Build.0 = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release MT|Win32.ActiveCfg = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release MT|Win32.Build.0 = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release|Win32.ActiveCfg = Release|Win32
+		{217903F7-F9AE-4EC8-B76E-3C8D110589C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

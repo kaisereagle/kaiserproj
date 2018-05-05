@@ -1,0 +1,94 @@
+VMD形式　めも
+MMD板に貼ったものと、ほぼ同内容です。(補間部分を追記してます)
+MMDのモデルデータについて語るスレの967を元に、再調査＋追記
+
+//// ファイル形式(VMD) ////
+// unsigned が付くかどうかは未チェック
+struct VMD_HEADER {
+char VmdHeader[30]; // "Vocaloid Motion Data 0002"
+char VmdModelName[20];
+} vmd_header;
+
+struct VMD_MOTION_COUNT {
+DWORD Count;
+} vmd_motion_count;
+
+struct VMD_MOTION { // 111 Bytes // モーション
+char BoneName[15];
+DWORD FlameNo;
+float Location[3];
+float Rotatation[4]; // Quaternion
+BYTE Interpolation[64]; // [4][4][4]
+} vmd_motion;
+
+struct VMD_SKIN_COUNT {
+DWORD Count;
+} vmd_skin_count;
+
+struct VMD_SKIN { // 23 Bytes // 表情
+char SkinName[15];
+DWORD FlameNo;
+float Weight;
+} vmd_skin;
+
+struct VMD_CAMERA_COUNT {
+DWORD Count;
+} vmd_camera_count;
+
+struct VMD_CAMERA { // 61 Bytes // カメラ
+DWORD FlameNo;
+float Length; // -(距離)
+float Location[3];
+float Rotation[3]; // オイラー角 // X軸は符号が反転しているので注意
+BYTE Interpolation[24]; // おそらく[6][4](未検証)
+DWORD ViewingAngle;
+BYTE Perspective; // 0:on 1:off
+} vmd_camera;
+
+struct VMD_LIGHT_COUNT {
+DWORD Count;
+} vmd_light_count;
+
+struct VMD_LIGHT { // 28 Bytes // 照明
+DWORD FlameNo;
+float RGB[3]; // RGB各値/256
+float Location[3];
+} vmd_light;
+
+struct VMD_SELF_SHADOW_COUNT {
+DWORD Count;
+} vmd_self_shadow_count;
+
+struct VMD_SELF_SHADOW { // 9 Bytes // セルフシャドー
+DWORD FlameNo;
+BYTE Mode; // 00-02
+float Distance; // 0.1 - (dist * 0.00001)
+} vmd_self_shadow;
+
+//// 補間の補足 ////
+// 補間用の曲線
+// (0,0), A(ax,ay), B(bx,by), (127,127) の3次(4点)ベジェ
+// A:左下の＋, B:右上の＋
+
+VMD補間_補足.jpg
+
+// モーションの補間パラメータの並び順(MMD板の情報)
+// 回転は4軸(クオータニオン)だが、1個にまとめられているので注意
+// 　 X軸 　　　 Y軸 　　　 Z軸 　　　 回転
+// A　(Xax,Xay) (Yax,Yay) (Zax,Zay) (Rax,Ray)
+// B　(Xbx,Xby) (Ybx,Yby) (Zbx,Zby) (Rbx,Rby)
+// とすると、
+// Xax,Yax,Zax,Rax,　Xay,Yay,Zay,Ray,　Xbx,Ybx,Zbx,Rbx,　Xby,Yby,Zby,Rby,
+// Yax,Zax,Rax,　Xay,Yay,Zay,Ray,　Xbx,Ybx,Zbx,Rbx,　Xby,Yby,Zby,Rby,　01,
+// Zax,Rax,　Xay,Yay,Zay,Ray,　Xbx,Ybx,Zbx,Rbx,　Xby,Yby,Zby,Rby,　01,00,
+// Rax,　Xay,Yay,Zay,Ray,　Xbx,Ybx,Zbx,Rbx,　Xby,Yby,Zby,Rby,　01,00,00
+
+// カメラの補間(推測)
+// モーションの補間と同じ並び順だとすると
+// 　 X軸 　　　 Y軸 　　　 Z軸 　　　 回転　 　　 距離　 　　視覚野
+// A　(Xax,Xay) (Yax,Yay) (Zax,Zay) (Rax,Ray) (Lax,Lay) (VAax,VAay)
+// B　(Xbx,Xby) (Ybx,Yby) (Zbx,Zby) (Rbx,Rby) (Lbx,Lby) (VAbx,VAby)
+// の場合、
+// Xax,Yax,Zax,Rax,Lax,VAax, Xay,Yay,Zay,Ray,Lay,VAay,
+// Xbx,Ybx,Zbx,Rbx,Lbx,VAbx, Xby,Yby,Zby,Rby,Lby,VAby
+

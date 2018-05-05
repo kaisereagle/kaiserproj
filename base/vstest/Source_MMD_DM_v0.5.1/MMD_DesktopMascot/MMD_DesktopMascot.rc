@@ -1,0 +1,344 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MMDDM_ICON          ICON                    "MMD_DM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "モデルを開く(&O)...\tO",            IDM_OPEN_MODEL
+        MENUITEM "モーション/ポーズ読込(&M)...\tM",       IDM_OPEN_MOTION
+        MENUITEM "前のポーズを残す",                    IDM_POSEBLEND
+        MENUITEM SEPARATOR
+        MENUITEM "マウス目線(&L)\tL",                IDM_LOOKATME
+        MENUITEM "常に最前面(&T)\tT",                IDM_TOPMOST
+        MENUITEM "物理演算(&B)\tB",                 IDM_ENABLE_PHYSICS
+        MENUITEM "ウィンドウ自動移動(&W)\tW",            IDM_MOVINGWINDOW
+        MENUITEM SEPARATOR
+        POPUP "ズーム(&Z)"
+        BEGIN
+            MENUITEM "拡大\t+",                       IDM_SCLAE_UP
+            MENUITEM "縮小\t-",                       IDM_SCALE_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "200%\tCtrl+2",                IDM_SCALE_200
+            MENUITEM "100%\tCtrl+0",                IDM_SCALE_100
+            MENUITEM "50%\tCtrl+1",                 IDM_SCALE_50
+        END
+        POPUP "位置調整と回転(&P)"
+        BEGIN
+            MENUITEM "向かって左に回転\tLeft",              IDM_ROT_LEFT
+            MENUITEM "向かって右に回転\tRight",             IDM_ROT_RIGHT
+            MENUITEM "上向きに回転\tUp",                  IDM_ROT_UP
+            MENUITEM "下向きに回転\tDown",                IDM_ROT_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "左へ\tShift+Left",              IDM_MOV_LEFT
+            MENUITEM "右へ\tShift+Right",             IDM_MOV_RIGHT
+            MENUITEM "上へ\tShift+Up",                IDM_MOV_UP
+            MENUITEM "下へ\tShift+Down",              IDM_MOV_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "リセット\tCtrl+Shift+N",          IDM_POS_RESET
+        END
+        POPUP "FPS制限(&F)"
+        BEGIN
+            MENUITEM "60fps",                       IDM_FPS_60
+            MENUITEM "30fps",                       IDM_FPS_30
+            MENUITEM "15fps",                       IDM_FPS_15
+            MENUITEM "10fps",                       IDM_FPS_10
+            MENUITEM "5fps",                        IDM_FPS_5
+            MENUITEM SEPARATOR
+            MENUITEM "FPS表示(&F)\tF",                IDM_SHOWFPS
+        END
+        POPUP "ウィンドウサイズ(&S)"
+        BEGIN
+            MENUITEM "全画面",                         IDM_CANVAS_FULL
+            MENUITEM "800x800",                     IDM_CANVAS_800
+            MENUITEM "600x600",                     IDM_CANVAS_600
+            MENUITEM "400x400",                     IDM_CANVAS_400
+            MENUITEM "200x200",                     IDM_CANVAS_200
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報(&A)...\tAlt+?",       IDM_ABOUT
+        MENUITEM "終了(&X)\tAlt+F4",              IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MENU ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "D",            IDM_DEBUG,              VIRTKEY, ALT, NOINVERT
+    "B",            IDM_ENABLE_PHYSICS,     VIRTKEY, NOINVERT
+    "L",            IDM_LOOKATME,           VIRTKEY, NOINVERT
+    VK_DOWN,        IDM_MOV_DOWN,           VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        IDM_MOV_LEFT,           VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       IDM_MOV_RIGHT,          VIRTKEY, SHIFT, NOINVERT
+    VK_UP,          IDM_MOV_UP,             VIRTKEY, SHIFT, NOINVERT
+    "O",            IDM_OPEN_MODEL,         VIRTKEY, NOINVERT
+    "M",            IDM_OPEN_MOTION,        VIRTKEY, NOINVERT
+    VK_APPS,        IDM_POPUP_MENU,         VIRTKEY, NOINVERT
+    "N",            IDM_POS_RESET,          VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_DOWN,        IDM_ROT_DOWN,           VIRTKEY, NOINVERT
+    VK_LEFT,        IDM_ROT_LEFT,           VIRTKEY, NOINVERT
+    VK_RIGHT,       IDM_ROT_RIGHT,          VIRTKEY, NOINVERT
+    VK_UP,          IDM_ROT_UP,             VIRTKEY, NOINVERT
+    "0",            IDM_SCALE_100,          VIRTKEY, CONTROL, NOINVERT
+    "2",            IDM_SCALE_200,          VIRTKEY, CONTROL, NOINVERT
+    "1",            IDM_SCALE_50,           VIRTKEY, CONTROL, NOINVERT
+    "-",            IDM_SCALE_DOWN,         ASCII,  NOINVERT
+    "+",            IDM_SCLAE_UP,           ASCII,  NOINVERT
+    "F",            IDM_SHOW_FPS,           VIRTKEY, NOINVERT
+    "T",            IDM_TOPMOST,            VIRTKEY, NOINVERT
+    "W",            IDM_MOVINGWINDOW,       VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 163, 65
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MMD_DM"
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    ICON            IDI_MMDDM_ICON,IDCANCEL,14,14,20,20
+    LTEXT           "MMD_DesktopMascot, Ver.0.5.1",IDC_STATIC,41,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009-2011 Ru--en",IDC_STATIC,41,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,58,44,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_CLASSNAME           "MMD_DESKTOPMASCOT"
+    IDS_APP_TITLE           "MMD_DesktopMascot"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (ニュートラル) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open Model...\tO",           IDM_OPEN_MODEL
+        MENUITEM "Open &Motion / Pose...\tM",   IDM_OPEN_MOTION
+        MENUITEM "Pose blending",               IDM_POSEBLEND
+        MENUITEM SEPARATOR
+        MENUITEM "&Look at cursor\tL",          IDM_LOOKATME
+        MENUITEM "Always on &Top\tT",           IDM_TOPMOST
+        MENUITEM "Enable ""&Bullet"" Physics\tB", IDM_ENABLE_PHYSICS
+        MENUITEM "&Window follows model\tW",    IDM_MOVINGWINDOW
+        MENUITEM SEPARATOR
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "Zoom In\t+",                  IDM_SCLAE_UP
+            MENUITEM "Zoom Out\t-",                 IDM_SCALE_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "200%\tCtrl+2",                IDM_SCALE_200
+            MENUITEM "100%\tCtrl+0",                IDM_SCALE_100
+            MENUITEM "50%\tCtrl+1",                 IDM_SCALE_50
+        END
+        POPUP "Model &Position && Rotation"
+        BEGIN
+            MENUITEM "Yaw clockwise\tLeft",         IDM_ROT_LEFT
+            MENUITEM "Yaw anticlockwise\tRight",    IDM_ROT_RIGHT
+            MENUITEM "Pitch up\tUp",                IDM_ROT_UP
+            MENUITEM "Pitch down\tDown",            IDM_ROT_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "Move to left\tShift+Left",    IDM_MOV_LEFT
+            MENUITEM "Move to right\tShift+Right",  IDM_MOV_RIGHT
+            MENUITEM "Move up\tShift+Up",           IDM_MOV_UP
+            MENUITEM "Move down\tShift+Down",       IDM_MOV_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "Reset\tCtrl+Shift+N",         IDM_POS_RESET
+        END
+        POPUP "&FPS limit"
+        BEGIN
+            MENUITEM "60fps",                       IDM_FPS_60
+            MENUITEM "30fps",                       IDM_FPS_30
+            MENUITEM "15fps",                       IDM_FPS_15
+            MENUITEM "10fps",                       IDM_FPS_10
+            MENUITEM "5fps",                        IDM_FPS_5
+            MENUITEM SEPARATOR
+            MENUITEM "Show &FPS\tF",                IDM_SHOWFPS
+        END
+        POPUP "Canvas &Size"
+        BEGIN
+            MENUITEM "Full screen",                 IDM_CANVAS_FULL
+            MENUITEM "800x800",                     IDM_CANVAS_800
+            MENUITEM "600x600",                     IDM_CANVAS_600
+            MENUITEM "400x400",                     IDM_CANVAS_400
+            MENUITEM "200x200",                     IDM_CANVAS_200
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&About...\tAlt+?",            IDM_ABOUT
+        MENUITEM "E&xit\tAlt+F4",               IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MENU ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "D",            IDM_DEBUG,              VIRTKEY, ALT, NOINVERT
+    "B",            IDM_ENABLE_PHYSICS,     VIRTKEY, NOINVERT
+    "L",            IDM_LOOKATME,           VIRTKEY, NOINVERT
+    VK_DOWN,        IDM_MOV_DOWN,           VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        IDM_MOV_LEFT,           VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       IDM_MOV_RIGHT,          VIRTKEY, SHIFT, NOINVERT
+    VK_UP,          IDM_MOV_UP,             VIRTKEY, SHIFT, NOINVERT
+    "O",            IDM_OPEN_MODEL,         VIRTKEY, NOINVERT
+    "M",            IDM_OPEN_MOTION,        VIRTKEY, NOINVERT
+    VK_APPS,        IDM_POPUP_MENU,         VIRTKEY, NOINVERT
+    "N",            IDM_POS_RESET,          VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_DOWN,        IDM_ROT_DOWN,           VIRTKEY, NOINVERT
+    VK_LEFT,        IDM_ROT_LEFT,           VIRTKEY, NOINVERT
+    VK_RIGHT,       IDM_ROT_RIGHT,          VIRTKEY, NOINVERT
+    VK_UP,          IDM_ROT_UP,             VIRTKEY, NOINVERT
+    "0",            IDM_SCALE_100,          VIRTKEY, CONTROL, NOINVERT
+    "2",            IDM_SCALE_200,          VIRTKEY, CONTROL, NOINVERT
+    "1",            IDM_SCALE_50,           VIRTKEY, CONTROL, NOINVERT
+    "-",            IDM_SCALE_DOWN,         ASCII,  NOINVERT
+    "+",            IDM_SCLAE_UP,           ASCII,  NOINVERT
+    "F",            IDM_SHOW_FPS,           VIRTKEY, NOINVERT
+    "T",            IDM_TOPMOST,            VIRTKEY, NOINVERT
+    "W",            IDM_MOVINGWINDOW,       VIRTKEY, NOINVERT
+END
+
+#endif    // 英語 (ニュートラル) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

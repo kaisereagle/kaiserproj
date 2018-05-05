@@ -1,0 +1,105 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxLibMake", "DxLibMake.vcxproj", "{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "miku", "..\miku\miku.vcxproj", "{B3C63BEF-8D0B-4767-AE49-7A54B6804086}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxDrawFunc", "DxDrawFuncMake.vcxproj", "{E2A60781-CF20-400E-BB35-9B9557B66549}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxUseCLib", "..\DxUseCLib\DxUseCLib.vcxproj", "{DF34355E-C022-4465-ABD8-DD7E2B325078}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dxlib_and", "..\dxlib_and\dxlib_and.vcxproj", "{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Tegra-Android = Debug|Tegra-Android
+		Debug|Win32 = Debug|Win32
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Tegra-Android = Release|Tegra-Android
+		Release|Win32 = Release|Win32
+		Shipping|Mixed Platforms = Shipping|Mixed Platforms
+		Shipping|Tegra-Android = Shipping|Tegra-Android
+		Shipping|Win32 = Shipping|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Debug|Tegra-Android.ActiveCfg = Debug|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Debug|Win32.Build.0 = Debug|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Release|Tegra-Android.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Release|Win32.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Release|Win32.Build.0 = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Shipping|Mixed Platforms.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Shipping|Mixed Platforms.Build.0 = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Shipping|Tegra-Android.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Shipping|Win32.ActiveCfg = Release|Win32
+		{E4222A5C-B8C6-4B8D-9840-4633AD2D941F}.Shipping|Win32.Build.0 = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Debug|Tegra-Android.ActiveCfg = Debug|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Debug|Win32.Build.0 = Debug|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Release|Tegra-Android.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Release|Win32.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Release|Win32.Build.0 = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Shipping|Mixed Platforms.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Shipping|Mixed Platforms.Build.0 = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Shipping|Tegra-Android.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Shipping|Win32.ActiveCfg = Release|Win32
+		{B3C63BEF-8D0B-4767-AE49-7A54B6804086}.Shipping|Win32.Build.0 = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Debug|Tegra-Android.ActiveCfg = Debug|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Debug|Win32.Build.0 = Debug|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Release|Tegra-Android.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Release|Win32.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Release|Win32.Build.0 = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Shipping|Mixed Platforms.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Shipping|Mixed Platforms.Build.0 = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Shipping|Tegra-Android.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Shipping|Win32.ActiveCfg = Release|Win32
+		{E2A60781-CF20-400E-BB35-9B9557B66549}.Shipping|Win32.Build.0 = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Debug|Tegra-Android.ActiveCfg = Debug|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Debug|Win32.Build.0 = Debug|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Release|Tegra-Android.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Release|Win32.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Release|Win32.Build.0 = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Shipping|Mixed Platforms.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Shipping|Mixed Platforms.Build.0 = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Shipping|Tegra-Android.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Shipping|Win32.ActiveCfg = Release|Win32
+		{DF34355E-C022-4465-ABD8-DD7E2B325078}.Shipping|Win32.Build.0 = Release|Win32
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Debug|Mixed Platforms.ActiveCfg = Debug|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Debug|Mixed Platforms.Build.0 = Debug|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Debug|Tegra-Android.ActiveCfg = Debug|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Debug|Tegra-Android.Build.0 = Debug|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Debug|Win32.ActiveCfg = Debug|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Release|Mixed Platforms.ActiveCfg = Release|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Release|Mixed Platforms.Build.0 = Release|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Release|Tegra-Android.ActiveCfg = Release|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Release|Tegra-Android.Build.0 = Release|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Release|Win32.ActiveCfg = Release|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Shipping|Mixed Platforms.ActiveCfg = Shipping|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Shipping|Mixed Platforms.Build.0 = Shipping|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Shipping|Tegra-Android.ActiveCfg = Shipping|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Shipping|Tegra-Android.Build.0 = Shipping|Tegra-Android
+		{D9650D5B-4DB0-45E6-941C-CD7C5DDFCBE5}.Shipping|Win32.ActiveCfg = Shipping|Tegra-Android
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mmdlib_nobullet", "..\mmdlib_nobullet\mmdlib_nobullet.vcxproj", "{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mmdlib", "..\..\mmdlib\mmdlib.vcxproj", "{F924F84C-382C-488C-A5F5-001FABE266A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletPhysics", "..\..\BulletPhysics\BulletPhysics.vcxproj", "{A151A6C4-B936-4843-BFF4-B874C01F63A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbulletcollision", "..\..\..\ext\bullet-2.75\msvc\15\libbulletcollision.vcxproj", "{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbulletdynamics", "..\..\..\ext\bullet-2.75\msvc\15\libbulletdynamics.vcxproj", "{61BD1097-CF2E-B296-DAA9-73A6FE135319}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbulletmath", "..\..\..\ext\bullet-2.75\msvc\15\libbulletmath.vcxproj", "{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		DebugDll|x86 = DebugDll|x86
+		DebugDoublePrecision|x86 = DebugDoublePrecision|x86
+		Release|x86 = Release|x86
+		ReleaseDll|x86 = ReleaseDll|x86
+		ReleaseDoublePrecision|x86 = ReleaseDoublePrecision|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.Debug|x86.Build.0 = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDll|x86.ActiveCfg = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDll|x86.Build.0 = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDll|x86.Deploy.0 = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDoublePrecision|x86.ActiveCfg = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDoublePrecision|x86.Build.0 = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.DebugDoublePrecision|x86.Deploy.0 = Debug|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.Release|x86.ActiveCfg = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.Release|x86.Build.0 = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDll|x86.ActiveCfg = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDll|x86.Build.0 = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDll|x86.Deploy.0 = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDoublePrecision|x86.ActiveCfg = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDoublePrecision|x86.Build.0 = Release|Win32
+		{5FC95B13-9F6E-410B-89C9-71A4F66E61B2}.ReleaseDoublePrecision|x86.Deploy.0 = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.Debug|x86.Build.0 = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.DebugDll|x86.ActiveCfg = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.DebugDll|x86.Build.0 = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.DebugDoublePrecision|x86.ActiveCfg = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.DebugDoublePrecision|x86.Build.0 = Debug|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.Release|x86.ActiveCfg = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.Release|x86.Build.0 = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.ReleaseDll|x86.ActiveCfg = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.ReleaseDll|x86.Build.0 = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.ReleaseDoublePrecision|x86.ActiveCfg = Release|Win32
+		{F924F84C-382C-488C-A5F5-001FABE266A0}.ReleaseDoublePrecision|x86.Build.0 = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.Debug|x86.Build.0 = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.DebugDll|x86.ActiveCfg = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.DebugDll|x86.Build.0 = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.DebugDoublePrecision|x86.ActiveCfg = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.DebugDoublePrecision|x86.Build.0 = Debug|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.Release|x86.ActiveCfg = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.Release|x86.Build.0 = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.ReleaseDll|x86.ActiveCfg = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.ReleaseDll|x86.Build.0 = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.ReleaseDoublePrecision|x86.ActiveCfg = Release|Win32
+		{A151A6C4-B936-4843-BFF4-B874C01F63A9}.ReleaseDoublePrecision|x86.Build.0 = Release|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.Debug|x86.Build.0 = Debug|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.DebugDll|x86.ActiveCfg = DebugDll|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.DebugDll|x86.Build.0 = DebugDll|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.DebugDoublePrecision|x86.ActiveCfg = DebugDoublePrecision|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.DebugDoublePrecision|x86.Build.0 = DebugDoublePrecision|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.Release|x86.ActiveCfg = Release|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.Release|x86.Build.0 = Release|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.ReleaseDoublePrecision|x86.ActiveCfg = ReleaseDoublePrecision|Win32
+		{6ADA430D-009C-2ED4-A787-2AC2D6FEB8CE}.ReleaseDoublePrecision|x86.Build.0 = ReleaseDoublePrecision|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.Debug|x86.ActiveCfg = Debug|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.Debug|x86.Build.0 = Debug|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.DebugDll|x86.ActiveCfg = DebugDll|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.DebugDll|x86.Build.0 = DebugDll|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.DebugDoublePrecision|x86.ActiveCfg = DebugDoublePrecision|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.DebugDoublePrecision|x86.Build.0 = DebugDoublePrecision|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.Release|x86.ActiveCfg = Release|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.Release|x86.Build.0 = Release|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.ReleaseDoublePrecision|x86.ActiveCfg = ReleaseDoublePrecision|Win32
+		{61BD1097-CF2E-B296-DAA9-73A6FE135319}.ReleaseDoublePrecision|x86.Build.0 = ReleaseDoublePrecision|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.Debug|x86.Build.0 = Debug|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.DebugDll|x86.ActiveCfg = DebugDll|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.DebugDll|x86.Build.0 = DebugDll|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.DebugDoublePrecision|x86.ActiveCfg = DebugDoublePrecision|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.DebugDoublePrecision|x86.Build.0 = DebugDoublePrecision|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.Release|x86.ActiveCfg = Release|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.Release|x86.Build.0 = Release|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.ReleaseDoublePrecision|x86.ActiveCfg = ReleaseDoublePrecision|Win32
+		{7D6E339F-9C2C-31DA-FDB0-5EE50973CF2A}.ReleaseDoublePrecision|x86.Build.0 = ReleaseDoublePrecision|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F312C2F-1C5F-4E87-9855-75B279D028C3}
+	EndGlobalSection
+EndGlobal

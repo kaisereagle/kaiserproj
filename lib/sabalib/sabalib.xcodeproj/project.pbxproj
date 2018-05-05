@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411F705820982AEE00550B0D /* sabalib.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F705720982AEE00550B0D /* sabalib.m */; };
+		411F705920982AEE00550B0D /* sabalib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 411F705620982AEE00550B0D /* sabalib.h */; };
+		411F706720982C2900550B0D /* OBJModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F706520982C2900550B0D /* OBJModel.cpp */; };
+		411F706820982C2900550B0D /* tinyobjloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F706620982C2900550B0D /* tinyobjloader.cpp */; };
+		411F706C20982E8200550B0D /* XFileModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F706A20982E8200550B0D /* XFileModel.cpp */; };
+		411F70C120982EF400550B0D /* PMDFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A020982EF000550B0D /* PMDFile.cpp */; };
+		411F70C220982EF400550B0D /* MMDMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A420982EF000550B0D /* MMDMaterial.cpp */; };
+		411F70C320982EF400550B0D /* VPDFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A520982EF000550B0D /* VPDFile.cpp */; };
+		411F70C420982EF400550B0D /* MMDNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A620982EF000550B0D /* MMDNode.cpp */; };
+		411F70C520982EF400550B0D /* PMDModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A720982EF000550B0D /* PMDModel.cpp */; };
+		411F70C620982EF400550B0D /* PMXFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70A820982EF000550B0D /* PMXFile.cpp */; };
+		411F70C720982EF400550B0D /* VMDAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70AB20982EF100550B0D /* VMDAnimation.cpp */; };
+		411F70C820982EF400550B0D /* MMDModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70AC20982EF100550B0D /* MMDModel.cpp */; };
+		411F70C920982EF400550B0D /* PMXModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70AE20982EF100550B0D /* PMXModel.cpp */; };
+		411F70CA20982EF400550B0D /* MMDPhysics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70AF20982EF100550B0D /* MMDPhysics.cpp */; };
+		411F70CB20982EF400550B0D /* MMDMorph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70B320982EF200550B0D /* MMDMorph.cpp */; };
+		411F70CC20982EF400550B0D /* SjisToUnicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70B620982EF300550B0D /* SjisToUnicode.cpp */; };
+		411F70CD20982EF400550B0D /* MMDIkSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70B920982EF300550B0D /* MMDIkSolver.cpp */; };
+		411F70CE20982EF400550B0D /* MMDCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70BB20982EF300550B0D /* MMDCamera.cpp */; };
+		411F70CF20982EF400550B0D /* VMDCameraAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70BC20982EF300550B0D /* VMDCameraAnimation.cpp */; };
+		411F70D020982EF400550B0D /* VMDFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411F70BD20982EF400550B0D /* VMDFile.cpp */; };
+		9B63E1F0209C3401009131B5 /* UnicodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1E4209C33FF009131B5 /* UnicodeUtil.cpp */; };
+		9B63E1F1209C3401009131B5 /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1E6209C3400009131B5 /* Singleton.cpp */; };
+		9B63E1F2209C3401009131B5 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1E7209C3400009131B5 /* Time.cpp */; };
+		9B63E1F3209C3401009131B5 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1EB209C3400009131B5 /* Log.cpp */; };
+		9B63E1F4209C3401009131B5 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1EC209C3400009131B5 /* File.cpp */; };
+		9B63E1F5209C3401009131B5 /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B63E1EE209C3401009131B5 /* Path.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		411F705120982AED00550B0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				411F705920982AEE00550B0D /* sabalib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		411F705320982AEE00550B0D /* libsabalib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsabalib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F705620982AEE00550B0D /* sabalib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sabalib.h; sourceTree = "<group>"; };
+		411F705720982AEE00550B0D /* sabalib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sabalib.m; sourceTree = "<group>"; };
+		411F706420982C2900550B0D /* OBJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBJModel.h; path = sabalib/Saba/Model/OBJ/OBJModel.h; sourceTree = SOURCE_ROOT; };
+		411F706520982C2900550B0D /* OBJModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OBJModel.cpp; path = sabalib/Saba/Model/OBJ/OBJModel.cpp; sourceTree = SOURCE_ROOT; };
+		411F706620982C2900550B0D /* tinyobjloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyobjloader.cpp; path = sabalib/Saba/Model/OBJ/tinyobjloader.cpp; sourceTree = SOURCE_ROOT; };
+		411F706920982C4100550B0D /* tiny_obj_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiny_obj_loader.h; sourceTree = "<group>"; };
+		411F706A20982E8200550B0D /* XFileModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XFileModel.cpp; path = sabalib/Saba/Model/XFile/XFileModel.cpp; sourceTree = SOURCE_ROOT; };
+		411F706B20982E8200550B0D /* XFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFileModel.h; path = sabalib/Saba/Model/XFile/XFileModel.h; sourceTree = SOURCE_ROOT; };
+		411F706D20982E8F00550B0D /* tinyxfileloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxfileloader.h; path = sabalib/tinyxfileloader.h; sourceTree = SOURCE_ROOT; };
+		411F70A020982EF000550B0D /* PMDFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PMDFile.cpp; path = sabalib/Saba/Model/MMD/PMDFile.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A120982EF000550B0D /* PMXModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMXModel.h; path = sabalib/Saba/Model/MMD/PMXModel.h; sourceTree = SOURCE_ROOT; };
+		411F70A220982EF000550B0D /* MMDPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDPhysics.h; path = sabalib/Saba/Model/MMD/MMDPhysics.h; sourceTree = SOURCE_ROOT; };
+		411F70A320982EF000550B0D /* MMDNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDNode.h; path = sabalib/Saba/Model/MMD/MMDNode.h; sourceTree = SOURCE_ROOT; };
+		411F70A420982EF000550B0D /* MMDMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDMaterial.cpp; path = sabalib/Saba/Model/MMD/MMDMaterial.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A520982EF000550B0D /* VPDFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VPDFile.cpp; path = sabalib/Saba/Model/MMD/VPDFile.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A620982EF000550B0D /* MMDNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDNode.cpp; path = sabalib/Saba/Model/MMD/MMDNode.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A720982EF000550B0D /* PMDModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PMDModel.cpp; path = sabalib/Saba/Model/MMD/PMDModel.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A820982EF000550B0D /* PMXFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PMXFile.cpp; path = sabalib/Saba/Model/MMD/PMXFile.cpp; sourceTree = SOURCE_ROOT; };
+		411F70A920982EF100550B0D /* PMXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMXFile.h; path = sabalib/Saba/Model/MMD/PMXFile.h; sourceTree = SOURCE_ROOT; };
+		411F70AA20982EF100550B0D /* MMDFileString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDFileString.h; path = sabalib/Saba/Model/MMD/MMDFileString.h; sourceTree = SOURCE_ROOT; };
+		411F70AB20982EF100550B0D /* VMDAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMDAnimation.cpp; path = sabalib/Saba/Model/MMD/VMDAnimation.cpp; sourceTree = SOURCE_ROOT; };
+		411F70AC20982EF100550B0D /* MMDModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDModel.cpp; path = sabalib/Saba/Model/MMD/MMDModel.cpp; sourceTree = SOURCE_ROOT; };
+		411F70AD20982EF100550B0D /* MMDMorph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDMorph.h; path = sabalib/Saba/Model/MMD/MMDMorph.h; sourceTree = SOURCE_ROOT; };
+		411F70AE20982EF100550B0D /* PMXModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PMXModel.cpp; path = sabalib/Saba/Model/MMD/PMXModel.cpp; sourceTree = SOURCE_ROOT; };
+		411F70AF20982EF100550B0D /* MMDPhysics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDPhysics.cpp; path = sabalib/Saba/Model/MMD/MMDPhysics.cpp; sourceTree = SOURCE_ROOT; };
+		411F70B020982EF200550B0D /* SjisToUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SjisToUnicode.h; path = sabalib/Saba/Model/MMD/SjisToUnicode.h; sourceTree = SOURCE_ROOT; };
+		411F70B120982EF200550B0D /* VPDFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPDFile.h; path = sabalib/Saba/Model/MMD/VPDFile.h; sourceTree = SOURCE_ROOT; };
+		411F70B220982EF200550B0D /* MMDMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDMaterial.h; path = sabalib/Saba/Model/MMD/MMDMaterial.h; sourceTree = SOURCE_ROOT; };
+		411F70B320982EF200550B0D /* MMDMorph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDMorph.cpp; path = sabalib/Saba/Model/MMD/MMDMorph.cpp; sourceTree = SOURCE_ROOT; };
+		411F70B420982EF200550B0D /* VMDCameraAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMDCameraAnimation.h; path = sabalib/Saba/Model/MMD/VMDCameraAnimation.h; sourceTree = SOURCE_ROOT; };
+		411F70B520982EF200550B0D /* VMDFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMDFile.h; path = sabalib/Saba/Model/MMD/VMDFile.h; sourceTree = SOURCE_ROOT; };
+		411F70B620982EF300550B0D /* SjisToUnicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SjisToUnicode.cpp; path = sabalib/Saba/Model/MMD/SjisToUnicode.cpp; sourceTree = SOURCE_ROOT; };
+		411F70B720982EF300550B0D /* PMDFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMDFile.h; path = sabalib/Saba/Model/MMD/PMDFile.h; sourceTree = SOURCE_ROOT; };
+		411F70B820982EF300550B0D /* MMDIkSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDIkSolver.h; path = sabalib/Saba/Model/MMD/MMDIkSolver.h; sourceTree = SOURCE_ROOT; };
+		411F70B920982EF300550B0D /* MMDIkSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDIkSolver.cpp; path = sabalib/Saba/Model/MMD/MMDIkSolver.cpp; sourceTree = SOURCE_ROOT; };
+		411F70BA20982EF300550B0D /* MMDCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDCamera.h; path = sabalib/Saba/Model/MMD/MMDCamera.h; sourceTree = SOURCE_ROOT; };
+		411F70BB20982EF300550B0D /* MMDCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MMDCamera.cpp; path = sabalib/Saba/Model/MMD/MMDCamera.cpp; sourceTree = SOURCE_ROOT; };
+		411F70BC20982EF300550B0D /* VMDCameraAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMDCameraAnimation.cpp; path = sabalib/Saba/Model/MMD/VMDCameraAnimation.cpp; sourceTree = SOURCE_ROOT; };
+		411F70BD20982EF400550B0D /* VMDFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMDFile.cpp; path = sabalib/Saba/Model/MMD/VMDFile.cpp; sourceTree = SOURCE_ROOT; };
+		411F70BE20982EF400550B0D /* PMDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMDModel.h; path = sabalib/Saba/Model/MMD/PMDModel.h; sourceTree = SOURCE_ROOT; };
+		411F70BF20982EF400550B0D /* VMDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMDAnimation.h; path = sabalib/Saba/Model/MMD/VMDAnimation.h; sourceTree = SOURCE_ROOT; };
+		411F70C020982EF400550B0D /* MMDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDModel.h; path = sabalib/Saba/Model/MMD/MMDModel.h; sourceTree = SOURCE_ROOT; };
+		9B63E1E4209C33FF009131B5 /* UnicodeUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeUtil.cpp; sourceTree = "<group>"; };
+		9B63E1E5209C3400009131B5 /* UnicodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeUtil.h; sourceTree = "<group>"; };
+		9B63E1E6209C3400009131B5 /* Singleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		9B63E1E7209C3400009131B5 /* Time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		9B63E1E8209C3400009131B5 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		9B63E1E9209C3400009131B5 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		9B63E1EA209C3400009131B5 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		9B63E1EB209C3400009131B5 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		9B63E1EC209C3400009131B5 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		9B63E1ED209C3401009131B5 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		9B63E1EE209C3401009131B5 /* Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cpp; sourceTree = "<group>"; };
+		9B63E1EF209C3401009131B5 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411F705020982AED00550B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411F704A20982AED00550B0D = {
+			isa = PBXGroup;
+			children = (
+				411F705520982AEE00550B0D /* sabalib */,
+				411F705420982AEE00550B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411F705420982AEE00550B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411F705320982AEE00550B0D /* libsabalib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411F705520982AEE00550B0D /* sabalib */ = {
+			isa = PBXGroup;
+			children = (
+				411F706020982B8700550B0D /* model */,
+				411F705F20982B6800550B0D /* base */,
+				411F705620982AEE00550B0D /* sabalib.h */,
+				411F705720982AEE00550B0D /* sabalib.m */,
+			);
+			path = sabalib;
+			sourceTree = "<group>";
+		};
+		411F705F20982B6800550B0D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				9B63E1EC209C3400009131B5 /* File.cpp */,
+				9B63E1EF209C3401009131B5 /* File.h */,
+				9B63E1EB209C3400009131B5 /* Log.cpp */,
+				9B63E1ED209C3401009131B5 /* Log.h */,
+				9B63E1EE209C3401009131B5 /* Path.cpp */,
+				9B63E1EA209C3400009131B5 /* Path.h */,
+				9B63E1E6209C3400009131B5 /* Singleton.cpp */,
+				9B63E1E8209C3400009131B5 /* Singleton.h */,
+				9B63E1E7209C3400009131B5 /* Time.cpp */,
+				9B63E1E9209C3400009131B5 /* Time.h */,
+				9B63E1E4209C33FF009131B5 /* UnicodeUtil.cpp */,
+				9B63E1E5209C3400009131B5 /* UnicodeUtil.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		411F706020982B8700550B0D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				411F706320982B9F00550B0D /* xfile */,
+				411F706220982B9700550B0D /* obj */,
+				411F706120982B8F00550B0D /* mmd */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		411F706120982B8F00550B0D /* mmd */ = {
+			isa = PBXGroup;
+			children = (
+				411F70BB20982EF300550B0D /* MMDCamera.cpp */,
+				411F70BA20982EF300550B0D /* MMDCamera.h */,
+				411F70AA20982EF100550B0D /* MMDFileString.h */,
+				411F70B920982EF300550B0D /* MMDIkSolver.cpp */,
+				411F70B820982EF300550B0D /* MMDIkSolver.h */,
+				411F70A420982EF000550B0D /* MMDMaterial.cpp */,
+				411F70B220982EF200550B0D /* MMDMaterial.h */,
+				411F70AC20982EF100550B0D /* MMDModel.cpp */,
+				411F70C020982EF400550B0D /* MMDModel.h */,
+				411F70B320982EF200550B0D /* MMDMorph.cpp */,
+				411F70AD20982EF100550B0D /* MMDMorph.h */,
+				411F70A620982EF000550B0D /* MMDNode.cpp */,
+				411F70A320982EF000550B0D /* MMDNode.h */,
+				411F70AF20982EF100550B0D /* MMDPhysics.cpp */,
+				411F70A220982EF000550B0D /* MMDPhysics.h */,
+				411F70A020982EF000550B0D /* PMDFile.cpp */,
+				411F70B720982EF300550B0D /* PMDFile.h */,
+				411F70A720982EF000550B0D /* PMDModel.cpp */,
+				411F70BE20982EF400550B0D /* PMDModel.h */,
+				411F70A820982EF000550B0D /* PMXFile.cpp */,
+				411F70A920982EF100550B0D /* PMXFile.h */,
+				411F70AE20982EF100550B0D /* PMXModel.cpp */,
+				411F70A120982EF000550B0D /* PMXModel.h */,
+				411F70B620982EF300550B0D /* SjisToUnicode.cpp */,
+				411F70B020982EF200550B0D /* SjisToUnicode.h */,
+				411F70AB20982EF100550B0D /* VMDAnimation.cpp */,
+				411F70BF20982EF400550B0D /* VMDAnimation.h */,
+				411F70BC20982EF300550B0D /* VMDCameraAnimation.cpp */,
+				411F70B420982EF200550B0D /* VMDCameraAnimation.h */,
+				411F70BD20982EF400550B0D /* VMDFile.cpp */,
+				411F70B520982EF200550B0D /* VMDFile.h */,
+				411F70A520982EF000550B0D /* VPDFile.cpp */,
+				411F70B120982EF200550B0D /* VPDFile.h */,
+			);
+			path = mmd;
+			sourceTree = "<group>";
+		};
+		411F706220982B9700550B0D /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				411F706920982C4100550B0D /* tiny_obj_loader.h */,
+				411F706520982C2900550B0D /* OBJModel.cpp */,
+				411F706420982C2900550B0D /* OBJModel.h */,
+				411F706620982C2900550B0D /* tinyobjloader.cpp */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		411F706320982B9F00550B0D /* xfile */ = {
+			isa = PBXGroup;
+			children = (
+				411F706D20982E8F00550B0D /* tinyxfileloader.h */,
+				411F706A20982E8200550B0D /* XFileModel.cpp */,
+				411F706B20982E8200550B0D /* XFileModel.h */,
+			);
+			path = xfile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411F705220982AED00550B0D /* sabalib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411F705C20982AEE00550B0D /* Build configuration list for PBXNativeTarget "sabalib" */;
+			buildPhases = (
+				411F704F20982AED00550B0D /* Sources */,
+				411F705020982AED00550B0D /* Frameworks */,
+				411F705120982AED00550B0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sabalib;
+			productName = sabalib;
+			productReference = 411F705320982AEE00550B0D /* libsabalib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411F704B20982AED00550B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kaiser;
+				TargetAttributes = {
+					411F705220982AED00550B0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 411F704E20982AED00550B0D /* Build configuration list for PBXProject "sabalib" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 411F704A20982AED00550B0D;
+			productRefGroup = 411F705420982AEE00550B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411F705220982AED00550B0D /* sabalib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411F704F20982AED00550B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F70C420982EF400550B0D /* MMDNode.cpp in Sources */,
+				411F70C520982EF400550B0D /* PMDModel.cpp in Sources */,
+				9B63E1F5209C3401009131B5 /* Path.cpp in Sources */,
+				411F70C720982EF400550B0D /* VMDAnimation.cpp in Sources */,
+				411F706C20982E8200550B0D /* XFileModel.cpp in Sources */,
+				9B63E1F4209C3401009131B5 /* File.cpp in Sources */,
+				411F70C120982EF400550B0D /* PMDFile.cpp in Sources */,
+				411F70CC20982EF400550B0D /* SjisToUnicode.cpp in Sources */,
+				411F70CB20982EF400550B0D /* MMDMorph.cpp in Sources */,
+				411F706820982C2900550B0D /* tinyobjloader.cpp in Sources */,
+				9B63E1F0209C3401009131B5 /* UnicodeUtil.cpp in Sources */,
+				411F705820982AEE00550B0D /* sabalib.m in Sources */,
+				411F70CF20982EF400550B0D /* VMDCameraAnimation.cpp in Sources */,
+				411F706720982C2900550B0D /* OBJModel.cpp in Sources */,
+				411F70D020982EF400550B0D /* VMDFile.cpp in Sources */,
+				411F70C820982EF400550B0D /* MMDModel.cpp in Sources */,
+				9B63E1F2209C3401009131B5 /* Time.cpp in Sources */,
+				411F70CE20982EF400550B0D /* MMDCamera.cpp in Sources */,
+				411F70C620982EF400550B0D /* PMXFile.cpp in Sources */,
+				411F70CD20982EF400550B0D /* MMDIkSolver.cpp in Sources */,
+				9B63E1F3209C3401009131B5 /* Log.cpp in Sources */,
+				411F70C320982EF400550B0D /* VPDFile.cpp in Sources */,
+				411F70C920982EF400550B0D /* PMXModel.cpp in Sources */,
+				9B63E1F1209C3401009131B5 /* Singleton.cpp in Sources */,
+				411F70CA20982EF400550B0D /* MMDPhysics.cpp in Sources */,
+				411F70C220982EF400550B0D /* MMDMaterial.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		411F705A20982AEE00550B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		411F705B20982AEE00550B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411F705D20982AEE00550B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6947JNGHU7;
+				HEADER_SEARCH_PATHS = (
+					./glm/include,
+					./glfw/include,
+					./sabalib/stb/include,
+					./spdlog/include,
+					./sabalib/sabalib,
+					./sabalib,
+					../src,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411F705E20982AEE00550B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6947JNGHU7;
+				HEADER_SEARCH_PATHS = (
+					./glm/include,
+					./glfw/include,
+					./sabalib/stb/include,
+					./spdlog/include,
+					./sabalib/sabalib,
+					./sabalib,
+					../src,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411F704E20982AED00550B0D /* Build configuration list for PBXProject "sabalib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F705A20982AEE00550B0D /* Debug */,
+				411F705B20982AEE00550B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411F705C20982AEE00550B0D /* Build configuration list for PBXNativeTarget "sabalib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F705D20982AEE00550B0D /* Debug */,
+				411F705E20982AEE00550B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411F704B20982AED00550B0D /* Project object */;
+}
