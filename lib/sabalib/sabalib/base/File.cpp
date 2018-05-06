@@ -1,11 +1,12 @@
-﻿//
+//
 // Copyright(c) 2016-2017 benikabocha.
 // Distributed under the MIT License (http://opensource.org/licenses/MIT)
 //
 
 #include "File.h"
 #include "UnicodeUtil.h"
-
+#include    <stdio.h>
+#include    <stdlib.h>
 namespace saba
 {
 	saba::File::File()
@@ -43,7 +44,8 @@ namespace saba
 			return false;
 		}
 #else
-		m_fp = fopen(filepath, mode);
+//        m_fp = fopen(filepath, mode);
+        m_fp = fopen("lat.pmd", mode);
 		if (m_fp == nullptr)
 		{
 			return false;
