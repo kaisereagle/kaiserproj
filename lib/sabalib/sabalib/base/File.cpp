@@ -44,8 +44,8 @@ namespace saba
 			return false;
 		}
 #else
-//        m_fp = fopen(filepath, mode);
-        m_fp = fopen("lat.pmd", mode);
+        m_fp = fopen(filepath, mode);
+//        m_fp = fopen("lat.pmd", mode);
 		if (m_fp == nullptr)
 		{
 			return false;

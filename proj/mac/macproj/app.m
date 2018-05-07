@@ -1,3 +1,4 @@
+//アプリケーションメイン
 #import <UIKit/UIKit.h>
 #import "viewcontroller.h"
 

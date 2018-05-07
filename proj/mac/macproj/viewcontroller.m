@@ -131,10 +131,10 @@ typedef struct {
     //        glBindFramebuffer(GL_FRAMEBUFFER, _framebuffer);
     //        glBindRenderbuffer(GL_RENDERBUFFER, _renderbuffer);
     //
-    //#ifdef WINOBJC
-    //        _outputView.layer.contentsScale =
-    //            [[UIApplication displayMode] currentMagnification] * [[UIApplication displayMode] hostScreenScale];
-    //#endif
+    #ifdef WINOBJC
+            _outputView.layer.contentsScale =
+                [[UIApplication displayMode] currentMagnification] * [[UIApplication displayMode] hostScreenScale];
+    #endif
     //
     //        [_ctx renderbufferStorage:GL_RENDERBUFFER fromDrawable:(CAEAGLLayer*)_outputView.layer];
     //        glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, _renderbuffer);
@@ -195,11 +195,11 @@ typedef struct {
     //    _rotateAttrib = glGetUniformLocation(_programHandle, "_rotate");
     //    _translateAttrib = glGetUniformLocation(_programHandle, "_translate");
     //
-    //    CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
-    //    _outputView = [[OpenGLView alloc] initWithFrame:frame];
-    //    _outputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+        _outputView = [[OpenGLView alloc] initWithFrame:frame];
+        _outputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-    //_displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(render)];
+    _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(render)];
     
     //以下asstesフォルダをカレントにする
     

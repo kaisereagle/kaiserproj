@@ -23,18 +23,15 @@
 		9B63E23F209EFFE4009131B5 /* tex_kao.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E20B209EFFDB009131B5 /* tex_kao.bmp */; };
 		9B63E240209EFFE4009131B5 /* huk3sb.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E210209EFFDB009131B5 /* huk3sb.bmp */; };
 		9B63E241209EFFE4009131B5 /* toon_kami.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E211209EFFDC009131B5 /* toon_kami.bmp */; };
-		9B63E242209EFFE4009131B5 /* 右手グー_xx.vpd in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E212209EFFDC009131B5 /* 右手グー_xx.vpd */; };
 		9B63E243209EFFE4009131B5 /* me.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E213209EFFDC009131B5 /* me.bmp */; };
 		9B63E244209EFFE4009131B5 /* r_hair.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E214209EFFDC009131B5 /* r_hair.bmp */; };
 		9B63E245209EFFE4009131B5 /* tex_kutu.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E215209EFFDC009131B5 /* tex_kutu.bmp */; };
 		9B63E246209EFFE4009131B5 /* huku3s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E216209EFFDC009131B5 /* huku3s.bmp */; };
 		9B63E247209EFFE4009131B5 /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E217209EFFDC009131B5 /* 01.mp3 */; };
 		9B63E248209EFFE4009131B5 /* toon_huku.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E218209EFFDC009131B5 /* toon_huku.bmp */; };
-		9B63E249209EFFE4009131B5 /* 左手グー_xx.vpd in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E219209EFFDC009131B5 /* 左手グー_xx.vpd */; };
 		9B63E24A209EFFE4009131B5 /* r_body.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21A209EFFDC009131B5 /* r_body.bmp */; };
 		9B63E24B209EFFE5009131B5 /* huku1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21B209EFFDD009131B5 /* huku1.bmp */; };
 		9B63E24C209EFFE5009131B5 /* toon_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21C209EFFDD009131B5 /* toon_s.bmp */; };
-		9B63E24D209EFFE5009131B5 /* サンプルポーズ.vpd in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21D209EFFDD009131B5 /* サンプルポーズ.vpd */; };
 		9B63E24E209EFFE5009131B5 /* reimu.pmd in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21E209EFFDD009131B5 /* reimu.pmd */; };
 		9B63E24F209EFFE5009131B5 /* tex_asi.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E21F209EFFDD009131B5 /* tex_asi.bmp */; };
 		9B63E250209EFFE5009131B5 /* uwabaki.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E220209EFFDD009131B5 /* uwabaki.bmp */; };
@@ -60,7 +57,6 @@
 		9B63E264209EFFE5009131B5 /* tex_eyesb.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E234209EFFE1009131B5 /* tex_eyesb.bmp */; };
 		9B63E265209EFFE5009131B5 /* tex_kami1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E235209EFFE1009131B5 /* tex_kami1.bmp */; };
 		9B63E266209EFFE5009131B5 /* huku3w.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E236209EFFE1009131B5 /* huku3w.bmp */; };
-		9B63E267209EFFE5009131B5 /* 初音ミク@七葉1052式.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E237209EFFE2009131B5 /* 初音ミク@七葉1052式.txt */; };
 		9B63E268209EFFE5009131B5 /* tex_test.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E238209EFFE2009131B5 /* tex_test.bmp */; };
 		9B63E269209EFFE5009131B5 /* miku_xx_head.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E239209EFFE2009131B5 /* miku_xx_head.bmp */; };
 		9B63E26A209EFFE5009131B5 /* miku_xx_body.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9B63E23A209EFFE2009131B5 /* miku_xx_body.bmp */; };
@@ -122,18 +118,15 @@
 		9B63E20B209EFFDB009131B5 /* tex_kao.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_kao.bmp; path = ../../../MMD_view/assets/tex_kao.bmp; sourceTree = "<group>"; };
 		9B63E210209EFFDB009131B5 /* huk3sb.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = huk3sb.bmp; path = ../../../MMD_view/assets/huk3sb.bmp; sourceTree = "<group>"; };
 		9B63E211209EFFDC009131B5 /* toon_kami.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = toon_kami.bmp; path = ../../../MMD_view/assets/toon_kami.bmp; sourceTree = "<group>"; };
-		9B63E212209EFFDC009131B5 /* 右手グー_xx.vpd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "右手グー_xx.vpd"; path = "../../../MMD_view/assets/右手グー_xx.vpd"; sourceTree = "<group>"; };
 		9B63E213209EFFDC009131B5 /* me.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = me.bmp; path = ../../../MMD_view/assets/me.bmp; sourceTree = "<group>"; };
 		9B63E214209EFFDC009131B5 /* r_hair.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = r_hair.bmp; path = ../../../MMD_view/assets/r_hair.bmp; sourceTree = "<group>"; };
 		9B63E215209EFFDC009131B5 /* tex_kutu.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_kutu.bmp; path = ../../../MMD_view/assets/tex_kutu.bmp; sourceTree = "<group>"; };
 		9B63E216209EFFDC009131B5 /* huku3s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = huku3s.bmp; path = ../../../MMD_view/assets/huku3s.bmp; sourceTree = "<group>"; };
 		9B63E217209EFFDC009131B5 /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 01.mp3; path = ../../../MMD_view/assets/01.mp3; sourceTree = "<group>"; };
 		9B63E218209EFFDC009131B5 /* toon_huku.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = toon_huku.bmp; path = ../../../MMD_view/assets/toon_huku.bmp; sourceTree = "<group>"; };
-		9B63E219209EFFDC009131B5 /* 左手グー_xx.vpd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "左手グー_xx.vpd"; path = "../../../MMD_view/assets/左手グー_xx.vpd"; sourceTree = "<group>"; };
 		9B63E21A209EFFDC009131B5 /* r_body.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = r_body.bmp; path = ../../../MMD_view/assets/r_body.bmp; sourceTree = "<group>"; };
 		9B63E21B209EFFDD009131B5 /* huku1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = huku1.bmp; path = ../../../MMD_view/assets/huku1.bmp; sourceTree = "<group>"; };
 		9B63E21C209EFFDD009131B5 /* toon_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = toon_s.bmp; path = ../../../MMD_view/assets/toon_s.bmp; sourceTree = "<group>"; };
-		9B63E21D209EFFDD009131B5 /* サンプルポーズ.vpd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "サンプルポーズ.vpd"; path = "../../../MMD_view/assets/サンプルポーズ.vpd"; sourceTree = "<group>"; };
 		9B63E21E209EFFDD009131B5 /* reimu.pmd */ = {isa = PBXFileReference; lastKnownFileType = file; name = reimu.pmd; path = ../../../MMD_view/assets/reimu.pmd; sourceTree = "<group>"; };
 		9B63E21F209EFFDD009131B5 /* tex_asi.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_asi.bmp; path = ../../../MMD_view/assets/tex_asi.bmp; sourceTree = "<group>"; };
 		9B63E220209EFFDD009131B5 /* uwabaki.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = uwabaki.bmp; path = ../../../MMD_view/assets/uwabaki.bmp; sourceTree = "<group>"; };
@@ -159,7 +152,6 @@
 		9B63E234209EFFE1009131B5 /* tex_eyesb.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_eyesb.bmp; path = ../../../MMD_view/assets/tex_eyesb.bmp; sourceTree = "<group>"; };
 		9B63E235209EFFE1009131B5 /* tex_kami1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_kami1.bmp; path = ../../../MMD_view/assets/tex_kami1.bmp; sourceTree = "<group>"; };
 		9B63E236209EFFE1009131B5 /* huku3w.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = huku3w.bmp; path = ../../../MMD_view/assets/huku3w.bmp; sourceTree = "<group>"; };
-		9B63E237209EFFE2009131B5 /* 初音ミク@七葉1052式.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "初音ミク@七葉1052式.txt"; path = "../../../MMD_view/assets/初音ミク@七葉1052式.txt"; sourceTree = "<group>"; };
 		9B63E238209EFFE2009131B5 /* tex_test.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = tex_test.bmp; path = ../../../MMD_view/assets/tex_test.bmp; sourceTree = "<group>"; };
 		9B63E239209EFFE2009131B5 /* miku_xx_head.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = miku_xx_head.bmp; path = ../../../MMD_view/assets/miku_xx_head.bmp; sourceTree = "<group>"; };
 		9B63E23A209EFFE2009131B5 /* miku_xx_body.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = miku_xx_body.bmp; path = ../../../MMD_view/assets/miku_xx_body.bmp; sourceTree = "<group>"; };
@@ -322,10 +314,6 @@
 				9B63E226209EFFDE009131B5 /* toon9.bmp */,
 				9B63E227209EFFDE009131B5 /* toon10.bmp */,
 				9B63E220209EFFDD009131B5 /* uwabaki.bmp */,
-				9B63E21D209EFFDD009131B5 /* サンプルポーズ.vpd */,
-				9B63E212209EFFDC009131B5 /* 右手グー_xx.vpd */,
-				9B63E219209EFFDC009131B5 /* 左手グー_xx.vpd */,
-				9B63E237209EFFE2009131B5 /* 初音ミク@七葉1052式.txt */,
 			);
 			path = assets;
 			sourceTree = "<group>";
@@ -450,7 +438,6 @@
 				9B63E245209EFFE4009131B5 /* tex_kutu.bmp in Resources */,
 				9B63E255209EFFE5009131B5 /* tex_body.bmp in Resources */,
 				9B63E24B209EFFE5009131B5 /* huku1.bmp in Resources */,
-				9B63E249209EFFE4009131B5 /* 左手グー_xx.vpd in Resources */,
 				9B63E256209EFFE5009131B5 /* toon9.bmp in Resources */,
 				9B63E251209EFFE5009131B5 /* r_cloth.bmp in Resources */,
 				9B63E25E209EFFE5009131B5 /* tex_fuku.bmp in Resources */,
@@ -463,13 +450,11 @@
 				9B63E250209EFFE5009131B5 /* uwabaki.bmp in Resources */,
 				9B63E263209EFFE5009131B5 /* miku.vmd in Resources */,
 				9B63E260209EFFE5009131B5 /* alice.pmd in Resources */,
-				9B63E242209EFFE4009131B5 /* 右手グー_xx.vpd in Resources */,
 				9B63E257209EFFE5009131B5 /* toon10.bmp in Resources */,
 				8BEC89D31E2026980002F77A /* Assets.xcassets in Resources */,
 				9B63E264209EFFE5009131B5 /* tex_eyesb.bmp in Resources */,
 				9B63E254209EFFE5009131B5 /* huku3.bmp in Resources */,
 				9B63E24A209EFFE4009131B5 /* r_body.bmp in Resources */,
-				9B63E24D209EFFE5009131B5 /* サンプルポーズ.vpd in Resources */,
 				9B63E25A209EFFE5009131B5 /* tex_eyes2.bmp in Resources */,
 				9B63E259209EFFE5009131B5 /* 1.vmd in Resources */,
 				9B63E25F209EFFE5009131B5 /* cheek.tga in Resources */,
@@ -487,7 +472,6 @@
 				9B63E23F209EFFE4009131B5 /* tex_kao.bmp in Resources */,
 				9B63E26E209EFFE5009131B5 /* tex_eulogia_v3.jpg in Resources */,
 				9B63E241209EFFE4009131B5 /* toon_kami.bmp in Resources */,
-				9B63E267209EFFE5009131B5 /* 初音ミク@七葉1052式.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
