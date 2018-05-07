@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
 
-  <Identity Name="4c196221-62aa-48d0-b02e-e4fb6441f1f1"
+  <Identity Name="adb4271e-09bf-4384-a800-a95325d59a34"
             Publisher="CN=sakya-suzuki"
             Version="1.0.0.0" />
 

@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="macproj">
-      <UniqueIdentifier>{2BEBBA3F-5E53-48AA-B6C6-ECBA8CCCF26E}</UniqueIdentifier>
+      <UniqueIdentifier>{85657AE6-D755-4C38-BF0E-DB85A5CEEC8E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

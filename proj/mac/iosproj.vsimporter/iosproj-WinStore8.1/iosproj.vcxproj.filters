@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Common">
-      <UniqueIdentifier>{b7f39193-efcc-45d0-938e-0a1dfecd4f15}</UniqueIdentifier>
+      <UniqueIdentifier>{fc0c0c0e-a489-4d91-8ed0-fc49428f841c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Assets">
-      <UniqueIdentifier>{f088d8f6-09f6-4892-9110-ed399931d031}</UniqueIdentifier>
+      <UniqueIdentifier>{fbe3fa53-b678-48de-8918-d0124952a47d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Xcode Variable Files">
-      <UniqueIdentifier>{8A77E847-FC85-457B-859F-61C615C70D34}</UniqueIdentifier>
+      <UniqueIdentifier>{DDAAEF81-FFE4-4C22-A41A-E288A009F6BC}</UniqueIdentifier>
     </Filter>
     <Filter Include="assets">
-      <UniqueIdentifier>{85841ADF-1FE5-478B-B94C-C8165940F323}</UniqueIdentifier>
+      <UniqueIdentifier>{5EB34211-14F0-45DB-854A-AC5768B3F117}</UniqueIdentifier>
     </Filter>
     <Filter Include="macproj">
-      <UniqueIdentifier>{562DDC51-4517-4B26-8D34-26D0B9D05723}</UniqueIdentifier>
+      <UniqueIdentifier>{8AD35005-12C5-4F10-8181-64D3BB96E933}</UniqueIdentifier>
     </Filter>
     <Filter Include="macproj\Base">
-      <UniqueIdentifier>{71D5377A-7E3A-452C-8546-FD3FB65EC877}</UniqueIdentifier>
+      <UniqueIdentifier>{97B98336-576D-4505-BDBC-9127A3184CEE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -190,11 +190,5 @@
     <Text Include="iosproj-Release-xcvars.txt">
       <Filter>Xcode Variable Files</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="iosproj_TemporaryKey.pfx" />
   </ItemGroup>
 </Project>

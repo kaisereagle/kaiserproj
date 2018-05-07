@@ -1,4 +1,4 @@
-//
+//メイン関数
 #import <UIKit/UIKit.h>
 
 int main(int argc, char* argv[]) {

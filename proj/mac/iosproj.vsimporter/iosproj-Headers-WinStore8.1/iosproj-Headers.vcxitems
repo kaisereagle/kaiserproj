@@ -4,8 +4,8 @@
     <HasSharedItems>true</HasSharedItems>
     <ItemsRootNamespace>iosproj_Headers</ItemsRootNamespace>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
-    <ItemsProjectGuid>{B57AE1F4-A9C8-43F3-83E0-F4D59A31ADBE}</ItemsProjectGuid>
-    <SharedGUID>{B3A58DB4-7B52-478F-B25B-2C4FBE74A3E0}</SharedGUID>
+    <ItemsProjectGuid>{61A1836A-2C9A-49FA-8ABC-C09225FC6E81}</ItemsProjectGuid>
+    <SharedGUID>{0A39E36C-1CB3-4800-B58F-49E0EE5C4199}</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\macproj\viewcontroller.h" />

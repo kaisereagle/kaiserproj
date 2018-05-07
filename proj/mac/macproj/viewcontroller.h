@@ -1,4 +1,4 @@
-
+//表示メイン
 
 #import <UIKit/UIKit.h>
 
