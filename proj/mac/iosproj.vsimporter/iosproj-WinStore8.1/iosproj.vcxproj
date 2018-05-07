@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>iosproj</ProjectName>
+    <RootNamespace>iosproj</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>8.1</ApplicationTypeRevision>
+    <ProjectGuid>{E8DD7CA8-1A65-41B3-81BA-336211D78275}</ProjectGuid>
+    <WINOBJC_SDK_ROOT>C:\work\winobjc\bin/..</WINOBJC_SDK_ROOT>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <TargetName>iosproj</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <TargetName>iosproj</TargetName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="../iosproj-Headers-WinStore8.1/iosproj-Headers.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <PackageCertificateKeyFile>iosproj_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);QuartzCore.lib;UIKit.lib;OpenGLES.lib</AdditionalDependencies>
+    </Link>
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\..\..\lib\sabalib;..\..\..\..\lib\sabalib\sabalib;..\..\..\..\include</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>Disabled</OptimizationLevel>
+      <PreprocessorDefinitions>DEBUG=1</PreprocessorDefinitions>
+    </ClangCompile>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);QuartzCore.lib;UIKit.lib;OpenGLES.lib</AdditionalDependencies>
+    </Link>
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\..\..\lib\sabalib;..\..\..\..\lib\sabalib\sabalib;..\..\..\..\include</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>MinSpace</OptimizationLevel>
+    </ClangCompile>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="iosproj_TemporaryKey.pfx" />
+    <Image Include="Assets\Logo.scale-100.png" />
+    <Image Include="Assets\SmallLogo.scale-100.png" />
+    <Image Include="Assets\StoreLogo.scale-100.png" />
+    <Image Include="Assets\SplashScreen.scale-100.png" />
+    <ClangCompile Include="..\..\macproj\main.m" />
+    <ClangCompile Include="..\..\macproj\app.m" />
+    <ClangCompile Include="..\..\macproj\viewcontroller.m" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huk3sb.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_asi.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3s.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\kami.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_g.bmp" />
+    <StoryboardCompile Include="..\..\macproj\Base.lproj\LaunchScreen.storyboard">
+      <VariantDir>Base.lproj</VariantDir>
+    </StoryboardCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\resadme.txt" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_mahu.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3w.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_hada.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kutu.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_body.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku1.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon9.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_cloth.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_fuku.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku_xx_head.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_huku.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\reimu.pmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_s.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku_xx_body.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku.pmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\uwabaki.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku.vmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\alice.pmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon10.bmp" />
+    <AssetCatalogCompile Include="..\..\macproj\Assets.xcassets" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eyesb.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_body.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eyes2.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\1.vmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\cheek.tga" />
+    <StoryboardCompile Include="..\..\macproj\Base.lproj\Main.storyboard">
+      <VariantDir>Base.lproj</VariantDir>
+    </StoryboardCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_hair.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\me.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku_s.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kami1.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku1w.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\01.mp3" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\hukus2.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\kami_ol.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_test.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\lat.pmd" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kao.bmp" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eulogia_v3.jpg" />
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_kami.bmp" />
+    <SBInfoPlistCopy Include="..\..\macproj\Info.plist">
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Debug'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Release'">false</ExcludedFromBuild>
+      <VariableFile Condition="'$(Configuration)'=='Debug'">iosproj-Debug-xcvars.txt</VariableFile>
+      <VariableFile Condition="'$(Configuration)'=='Release'">iosproj-Release-xcvars.txt</VariableFile>
+    </SBInfoPlistCopy>
+    <Text Include="iosproj-Debug-xcvars.txt" />
+    <Text Include="iosproj-Release-xcvars.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b7f39193-efcc-45d0-938e-0a1dfecd4f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{f088d8f6-09f6-4892-9110-ed399931d031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xcode Variable Files">
+      <UniqueIdentifier>{8A77E847-FC85-457B-859F-61C615C70D34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{85841ADF-1FE5-478B-B94C-C8165940F323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macproj">
+      <UniqueIdentifier>{562DDC51-4517-4B26-8D34-26D0B9D05723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macproj\Base">
+      <UniqueIdentifier>{71D5377A-7E3A-452C-8546-FD3FB65EC877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClangCompile Include="..\..\macproj\main.m">
+      <Filter>macproj</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\macproj\app.m">
+      <Filter>macproj</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\macproj\viewcontroller.m">
+      <Filter>macproj</Filter>
+    </ClangCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huk3sb.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_asi.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3s.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\kami.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_g.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <StoryboardCompile Include="..\..\macproj\Base.lproj\LaunchScreen.storyboard">
+      <Filter>macproj\Base</Filter>
+    </StoryboardCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\resadme.txt">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_mahu.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3w.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_hada.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kutu.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_body.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku1.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon9.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_cloth.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_fuku.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku_xx_head.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_huku.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\reimu.pmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_s.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku_xx_body.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku.pmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\uwabaki.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\miku.vmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\alice.pmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon10.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <AssetCatalogCompile Include="..\..\macproj\Assets.xcassets">
+      <Filter>macproj</Filter>
+    </AssetCatalogCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eyesb.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku3.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_body.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eyes2.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\1.vmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\cheek.tga">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <StoryboardCompile Include="..\..\macproj\Base.lproj\Main.storyboard">
+      <Filter>macproj\Base</Filter>
+    </StoryboardCompile>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\r_hair.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\me.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku_s.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kami1.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\huku1w.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\01.mp3">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\hukus2.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\kami_ol.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_test.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\lat.pmd">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_kao.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\tex_eulogia_v3.jpg">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\..\..\MMD_view\assets\toon_kami.bmp">
+      <Filter>assets</Filter>
+    </SBResourceCopy>
+    <SBInfoPlistCopy Include="..\..\macproj\Info.plist" />
+    <Text Include="iosproj-Debug-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+    <Text Include="iosproj-Release-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iosproj_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>
