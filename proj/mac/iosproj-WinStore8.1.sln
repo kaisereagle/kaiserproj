@@ -1,97 +1,38 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sabalib", "sabalib", "{E114B5FD-E43F-46D0-8213-765D4C9F70A7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iosproj", "iosproj", "{711858E4-E668-4D86-ACE5-CD2BF344F81B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletCollision", "BulletCollision", "{9A320480-A6DD-4563-B47C-C813C3AA2943}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletDynamics", "BulletDynamics", "{17100541-88EF-4E4A-A094-7A8ABF494975}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearMath", "LinearMath", "{80DAEB21-5C2E-45D6-AF6B-DDDB626A2740}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision-Headers", "..\..\test\BulletCollision\BulletCollision.vsimporter\BulletCollision-Headers-WinStore8.1\BulletCollision-Headers.vcxitems", "{6C652AEE-716A-4480-BB5B-68D706A0C346}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision", "..\..\test\BulletCollision\BulletCollision.vsimporter\BulletCollision-WinStore8.1\BulletCollision.vcxproj", "{080013FE-1BCF-4391-BB34-61911CD2D111}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sabalib-Headers", "..\..\lib\sabalib\sabalib.vsimporter\sabalib-Headers-WinStore8.1\sabalib-Headers.vcxitems", "{2F3E1192-4585-4A12-92C7-80EF32B2CB3D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sabalib", "..\..\lib\sabalib\sabalib.vsimporter\sabalib-WinStore8.1\sabalib.vcxproj", "{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iosproj-Headers", "iosproj.vsimporter\iosproj-Headers-WinStore8.1\iosproj-Headers.vcxitems", "{61A1836A-2C9A-49FA-8ABC-C09225FC6E81}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iosproj", "iosproj.vsimporter\iosproj-WinStore8.1\iosproj.vcxproj", "{1E035764-8942-465F-91F9-AEA75042FA9F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC} = {8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89} = {57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}
-		{080013FE-1BCF-4391-BB34-61911CD2D111} = {080013FE-1BCF-4391-BB34-61911CD2D111}
-		{CFE59505-CB3B-47B4-B44A-A583142808FA} = {CFE59505-CB3B-47B4-B44A-A583142808FA}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics-Headers", "..\..\test\BulletDynamics\BulletDynamics.vsimporter\BulletDynamics-Headers-WinStore8.1\BulletDynamics-Headers.vcxitems", "{E3E9FD5C-7561-40F3-87DC-378599CC12DC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\..\test\BulletDynamics\BulletDynamics.vsimporter\BulletDynamics-WinStore8.1\BulletDynamics.vcxproj", "{CFE59505-CB3B-47B4-B44A-A583142808FA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath-Headers", "..\..\test\LinearMath\LinearMath.vsimporter\LinearMath-Headers-WinStore8.1\LinearMath-Headers.vcxitems", "{C0C899CA-F7C2-44C8-AD37-F03E536A286B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "..\..\test\LinearMath\LinearMath.vsimporter\LinearMath-WinStore8.1\LinearMath.vcxproj", "{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\lib\sabalib\sabalib.vsimporter\sabalib-Headers-WinStore8.1\sabalib-Headers.vcxitems*{2F3E1192-4585-4A12-92C7-80EF32B2CB3D}*SharedItemsImports = 9
-		..\..\lib\sabalib\sabalib.vsimporter\sabalib-Headers-WinStore8.1\sabalib-Headers.vcxitems*{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}*SharedItemsImports = 4
-		iosproj.vsimporter\iosproj-Headers-WinStore8.1\iosproj-Headers.vcxitems*{61A1836A-2C9A-49FA-8ABC-C09225FC6E81}*SharedItemsImports = 9
-		iosproj.vsimporter\iosproj-Headers-WinStore8.1\iosproj-Headers.vcxitems*{1E035764-8942-465F-91F9-AEA75042FA9F}*SharedItemsImports = 4
-		..\..\test\BulletCollision\BulletCollision.vsimporter\BulletCollision-Headers-WinStore8.1\BulletCollision-Headers.vcxitems*{6C652AEE-716A-4480-BB5B-68D706A0C346}*SharedItemsImports = 9
-		..\..\test\BulletCollision\BulletCollision.vsimporter\BulletCollision-Headers-WinStore8.1\BulletCollision-Headers.vcxitems*{080013FE-1BCF-4391-BB34-61911CD2D111}*SharedItemsImports = 4
-		..\..\test\BulletDynamics\BulletDynamics.vsimporter\BulletDynamics-Headers-WinStore8.1\BulletDynamics-Headers.vcxitems*{E3E9FD5C-7561-40F3-87DC-378599CC12DC}*SharedItemsImports = 9
-		..\..\test\BulletDynamics\BulletDynamics.vsimporter\BulletDynamics-Headers-WinStore8.1\BulletDynamics-Headers.vcxitems*{CFE59505-CB3B-47B4-B44A-A583142808FA}*SharedItemsImports = 4
-		..\..\test\LinearMath\LinearMath.vsimporter\LinearMath-Headers-WinStore8.1\LinearMath-Headers.vcxitems*{C0C899CA-F7C2-44C8-AD37-F03E536A286B}*SharedItemsImports = 9
-		..\..\test\LinearMath\LinearMath.vsimporter\LinearMath-Headers-WinStore8.1\LinearMath-Headers.vcxitems*{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}*SharedItemsImports = 4
+		iosproj.vsimporter\iosproj-Headers-WinStore8.1\iosproj-Headers.vcxitems*{1e035764-8942-465f-91f9-aea75042fa9f}*SharedItemsImports = 4
+		iosproj.vsimporter\iosproj-Headers-WinStore8.1\iosproj-Headers.vcxitems*{61a1836a-2c9a-49fa-8abc-c09225fc6e81}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}.Debug|Win32.Build.0 = Debug|Win32
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}.Release|Win32.ActiveCfg = Release|Win32
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}.Release|Win32.Build.0 = Release|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Debug|Win32.Build.0 = Debug|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Debug|Win32.Deploy.0 = Debug|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Release|Win32.ActiveCfg = Release|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Release|Win32.Build.0 = Release|Win32
 		{1E035764-8942-465F-91F9-AEA75042FA9F}.Release|Win32.Deploy.0 = Release|Win32
-		{080013FE-1BCF-4391-BB34-61911CD2D111}.Debug|Win32.ActiveCfg = Debug|Win32
-		{080013FE-1BCF-4391-BB34-61911CD2D111}.Debug|Win32.Build.0 = Debug|Win32
-		{080013FE-1BCF-4391-BB34-61911CD2D111}.Release|Win32.ActiveCfg = Release|Win32
-		{080013FE-1BCF-4391-BB34-61911CD2D111}.Release|Win32.Build.0 = Release|Win32
-		{CFE59505-CB3B-47B4-B44A-A583142808FA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{CFE59505-CB3B-47B4-B44A-A583142808FA}.Debug|Win32.Build.0 = Debug|Win32
-		{CFE59505-CB3B-47B4-B44A-A583142808FA}.Release|Win32.ActiveCfg = Release|Win32
-		{CFE59505-CB3B-47B4-B44A-A583142808FA}.Release|Win32.Build.0 = Release|Win32
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}.Debug|Win32.ActiveCfg = Debug|Win32
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}.Debug|Win32.Build.0 = Debug|Win32
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}.Release|Win32.ActiveCfg = Release|Win32
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6C652AEE-716A-4480-BB5B-68D706A0C346} = {9A320480-A6DD-4563-B47C-C813C3AA2943}
-		{080013FE-1BCF-4391-BB34-61911CD2D111} = {9A320480-A6DD-4563-B47C-C813C3AA2943}
-		{2F3E1192-4585-4A12-92C7-80EF32B2CB3D} = {E114B5FD-E43F-46D0-8213-765D4C9F70A7}
-		{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC} = {E114B5FD-E43F-46D0-8213-765D4C9F70A7}
 		{61A1836A-2C9A-49FA-8ABC-C09225FC6E81} = {711858E4-E668-4D86-ACE5-CD2BF344F81B}
 		{1E035764-8942-465F-91F9-AEA75042FA9F} = {711858E4-E668-4D86-ACE5-CD2BF344F81B}
-		{E3E9FD5C-7561-40F3-87DC-378599CC12DC} = {17100541-88EF-4E4A-A094-7A8ABF494975}
-		{CFE59505-CB3B-47B4-B44A-A583142808FA} = {17100541-88EF-4E4A-A094-7A8ABF494975}
-		{C0C899CA-F7C2-44C8-AD37-F03E536A286B} = {80DAEB21-5C2E-45D6-AF6B-DDDB626A2740}
-		{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89} = {80DAEB21-5C2E-45D6-AF6B-DDDB626A2740}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EEC6050-8781-4F57-844F-B47FABBD4274}
 	EndGlobalSection
 EndGlobal

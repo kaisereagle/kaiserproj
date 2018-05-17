@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -159,20 +159,6 @@
     </SBInfoPlistCopy>
     <Text Include="iosproj-Debug-xcvars.txt" />
     <Text Include="iosproj-Release-xcvars.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="../../../../lib/sabalib/sabalib.vsimporter/sabalib-WinStore8.1/sabalib.vcxproj">
-      <Project>{8D3FA41C-E49A-45D3-AE40-55FCF9296FEC}</Project>
-    </ProjectReference>
-    <ProjectReference Include="../../../../test/LinearMath/LinearMath.vsimporter/LinearMath-WinStore8.1/LinearMath.vcxproj">
-      <Project>{57F1AA63-7088-4E5A-BA96-0D6CC8FF4C89}</Project>
-    </ProjectReference>
-    <ProjectReference Include="../../../../test/BulletCollision/BulletCollision.vsimporter/BulletCollision-WinStore8.1/BulletCollision.vcxproj">
-      <Project>{080013FE-1BCF-4391-BB34-61911CD2D111}</Project>
-    </ProjectReference>
-    <ProjectReference Include="../../../../test/BulletDynamics/BulletDynamics.vsimporter/BulletDynamics-WinStore8.1/BulletDynamics.vcxproj">
-      <Project>{CFE59505-CB3B-47B4-B44A-A583142808FA}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
