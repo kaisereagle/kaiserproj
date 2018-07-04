@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BF3D7EB-7E72-33E1-ABA7-56DE0102A95E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\kaiserproj\ext\freeglut-3.0.0\src;C:\work\kaiserproj\ext\freeglut-3.0.0\include;C:\work\kaiserproj\ext\freeglut-3.0.0\proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\kaiserproj\ext\freeglut-3.0.0\src;C:\work\kaiserproj\ext\freeglut-3.0.0\include;C:\work\kaiserproj\ext\freeglut-3.0.0\proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\kaiserproj\ext\freeglut-3.0.0\src;C:\work\kaiserproj\ext\freeglut-3.0.0\include;C:\work\kaiserproj\ext\freeglut-3.0.0\proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\kaiserproj\ext\freeglut-3.0.0\src;C:\work\kaiserproj\ext\freeglut-3.0.0\include;C:\work\kaiserproj\ext\freeglut-3.0.0\proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\ZERO_CHECK.vcxproj">
+      <Project>{E489889B-2318-3C32-8E36-B856123174FE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\CallbackMaker.vcxproj">
+      <Project>{A7C09798-E5CB-3239-AE8D-FA02636A50B0}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\CallbackMaker_static.vcxproj">
+      <Project>{7BAB22B2-FBEE-3E01-8D3B-92F7FBADE431}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Fractals.vcxproj">
+      <Project>{8889A442-B833-3476-ACDD-BCD3388C7B15}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Fractals_random.vcxproj">
+      <Project>{1A1C9DD3-FE42-3BA6-BCA1-6C6110459FD5}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Fractals_random_static.vcxproj">
+      <Project>{302B8EF6-CF42-31BA-9C1F-F4FF7EF770D2}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Fractals_static.vcxproj">
+      <Project>{6734B91F-3C29-3431-AAC5-10CE177553F7}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Lorenz.vcxproj">
+      <Project>{FA8FEAA8-76DF-3722-8E55-72E7ECD3773C}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Lorenz_static.vcxproj">
+      <Project>{5AABAD24-5C10-34A1-A7C3-A2A2116A8B5F}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\One.vcxproj">
+      <Project>{569EDA27-9FB4-3687-8DDE-E25A2CFEDB2E}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\One_static.vcxproj">
+      <Project>{2361522A-30E1-3A41-85AE-1D3B3693300C}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Resizer.vcxproj">
+      <Project>{478C1C63-F063-3A09-BC28-83B4BD3F1AC0}</Project>
+      <Name>Resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\Resizer_static.vcxproj">
+      <Project>{A09D65A2-FC90-3923-800D-CC54E9596798}</Project>
+      <Name>Resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\freeglut.vcxproj">
+      <Project>{04C42A4A-93B9-3814-A221-128AEA9FC073}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\freeglut_static.vcxproj">
+      <Project>{2F0AB94F-0BE5-329C-A6DB-8484BE76E94D}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\multi-touch.vcxproj">
+      <Project>{AC4B04DF-27CB-37FE-A553-DAC0670C3D13}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\multi-touch_static.vcxproj">
+      <Project>{24EB7BA4-B757-34F4-A023-4B805F51D9AF}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\shapes.vcxproj">
+      <Project>{9A7C8BAA-FEAA-3105-856D-2FF0D0FEBCF4}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\shapes_static.vcxproj">
+      <Project>{F43B20C5-A6BE-3693-B2B5-8FE4D890CC94}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\smooth_opengl3.vcxproj">
+      <Project>{A92F7370-45A8-30F7-8CAB-C9B62C1F4706}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\smooth_opengl3_static.vcxproj">
+      <Project>{24682063-01DE-395A-9D58-F36EB0B9FCBC}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\subwin.vcxproj">
+      <Project>{A4BF9581-5E5D-36F1-8CF8-C743BE03ADDE}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\subwin_static.vcxproj">
+      <Project>{E6ED15B6-9F10-389D-8554-6B31241574E7}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\timer.vcxproj">
+      <Project>{6D208CA5-D1C2-3C60-9DE4-2BE9C7689CDE}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\kaiserproj\ext\freeglut-3.0.0\proj\timer_static.vcxproj">
+      <Project>{698A2F7E-1A5B-3D0D-94B5-64D9B7B8C2A5}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

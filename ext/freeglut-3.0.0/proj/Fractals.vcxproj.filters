@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\kaiserproj\ext\freeglut-3.0.0\progs\demos\Fractals\fractals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F93EDD6-792A-3B90-8241-F37A56C96F98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
